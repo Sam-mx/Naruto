@@ -1,9 +1,14 @@
+import ButtonGradient from "./assets/svg/ButtonGradient"
+import Navigation from "./components/Navigation"
 
-function App() {
+const App = () => {
 
   return (
     <>
-      Hello
+      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
+        <Navigation />
+      </div>
+      <ButtonGradient />
     </>
   )
 }

@@ -21,47 +21,8 @@ export const navigation = [
     },
     {
       id: "4",
-      title: "New account",
-      url: "#signup",
+      title: "Other Teams",
+      url: "#teams",
       onlyMobile: true,
-    },
-    {
-      id: "5",
-      title: "Sign in",
-      url: "#login",
-      onlyMobile: true,
-    },
-  ];
-
-  export const socials = [
-    {
-      id: "0",
-      title: "Discord",
-      iconUrl: discordBlack,
-      url: "#",
-    },
-    {
-      id: "1",
-      title: "Twitter",
-      iconUrl: twitter,
-      url: "#",
-    },
-    {
-      id: "2",
-      title: "Instagram",
-      iconUrl: instagram,
-      url: "#",
-    },
-    {
-      id: "3",
-      title: "Telegram",
-      iconUrl: telegram,
-      url: "#",
-    },
-    {
-      id: "4",
-      title: "Facebook",
-      iconUrl: facebook,
-      url: "#",
     },
   ];
