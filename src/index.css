@@ -18,7 +18,7 @@
 
 @layer base {
   body {
-    @apply font-sans bg-color-3 text-n-8 text-base;
+    @apply font-sans bg-color-4 text-n-8 text-base;
   }
 }
 
