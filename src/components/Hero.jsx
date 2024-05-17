@@ -8,6 +8,7 @@ import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
 import Konoha from "./Konoha";
+import { logo } from "../assets";
 
 
 const Hero = () => {
@@ -89,6 +90,15 @@ const Hero = () => {
         </div>
 
        
+        <div className="hidden relative z-10 lg:block">
+          <ul className="flex">
+            <li
+              className="flex items-center justify-center flex-1 "
+            >
+            <img src={logo} width={134} height={28} alt="logo" />
+            </li>
+          </ul>
+        </div>
       </div>
 
       <BottomLine />

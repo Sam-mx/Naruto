@@ -8,7 +8,10 @@ import file02 from "./file-02.svg";
 import searchMd from "./search-md.svg";
 import plusSquare from "./plus-square.svg";
 import loading from "./loading.png";
-
+import team7 from "./Teamseven/team.jpg";
+import logo from "./logo.png";
+import gradient from "./gradient.png"
+import check from "./check.png";
 
 export {
     naruto,
@@ -20,5 +23,9 @@ export {
     file02,
     searchMd,
     plusSquare,
-    loading
+    loading,
+    team7,
+    logo,
+    gradient,
+    check
 };

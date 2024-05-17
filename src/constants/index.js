@@ -35,3 +35,10 @@ export const navigation = [
   ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
+
+export const teamSeven = [
+  "Hatake Kakashi",
+  "Uzumaki Naruto",
+  "Uchiha Saskue",
+  "Haruno Sakura",
+];
