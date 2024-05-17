@@ -47,6 +47,9 @@ const Teamseven = () => {
             </div>
             </div>
 
+            <div>
+
+            </div>
             <Gradient />
           </div>
         </div>
