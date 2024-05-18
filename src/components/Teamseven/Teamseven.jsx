@@ -109,7 +109,7 @@ const Teamseven = () => {
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
                 <img
                   src={narutopic}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover hover:opacity-80 hover:cursor-pointer"
                   width={520}
                   height={400}
                   alt="Naruto"
@@ -123,7 +123,7 @@ const Teamseven = () => {
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem] mb-[2rem] mt-[4rem]">
                 <img
                   src={sakura}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover hover:opacity-80 hover:cursor-pointer"
                   width={520}
                   height={400}
                   alt="Scary robot"
