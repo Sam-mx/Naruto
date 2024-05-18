@@ -1,4 +1,4 @@
-import { hero, herobackground, curve } from "../assets"
+import { hero, herobackground, curve } from "../assets";
 
 import Button from "./Button";
 import Section from "./Section";
@@ -10,17 +10,18 @@ import { useRef } from "react";
 import Konoha from "./Konoha";
 import { logo } from "../assets";
 
-
 const Hero = () => {
-    const parallaxRef = useRef(null);
+  const parallaxRef = useRef(null);
 
   return (
-    <Section  className="pt-[12rem] -mt-[5.25rem]"
-    crosses
-    crossesOffset="lg:translate-y-[5.25rem]"
-    customPaddings
-    id="hero">
-         <div className="container relative" ref={parallaxRef}>
+    <Section
+      className="pt-[12rem] -mt-[5.25rem]"
+      crosses
+      crossesOffset="lg:translate-y-[5.25rem]"
+      customPaddings
+      id="hero"
+    >
+      <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6 ">
             Welcome to the world of {` `}
@@ -36,7 +37,8 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-1 lg:mb-8">
-          Dive into the heart of the Hidden Leaf Village and meet the legendary teams that have shaped its history. 
+            Dive into the heart of the Hidden Leaf Village and meet the
+            legendary teams that have shaped its history.
           </p>
           <Button href="/#teamseven" white>
             Get started
@@ -57,7 +59,7 @@ const Hero = () => {
                 />
 
                 <ScrollParallax isAbsolutelyPositioned>
-                    <Konoha className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2 text-n-1" />
+                  <Konoha className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2 text-n-1" />
                 </ScrollParallax>
 
                 <ScrollParallax isAbsolutelyPositioned>
@@ -69,8 +71,6 @@ const Hero = () => {
                     ))}
                   </ul>
                 </ScrollParallax>
-
-                
               </div>
             </div>
 
@@ -89,22 +89,18 @@ const Hero = () => {
           <BackgroundCircles />
         </div>
 
-       
         <div className="hidden relative z-10 lg:block">
           <ul className="flex">
-            <li
-              className="flex items-center justify-center flex-1 "
-            >
-            <img src={logo} width={134} height={28} alt="logo" />
+            <li className="flex items-center justify-center flex-1 ">
+              <img src={logo} width={134} height={28} alt="logo" />
             </li>
           </ul>
         </div>
       </div>
 
       <BottomLine />
-    
     </Section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

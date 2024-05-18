@@ -2,7 +2,6 @@ import ButtonGradient from "./assets/svg/ButtonGradient";
 import Hero from "./components/Hero";
 import Navigation from "./components/Navigation";
 import Teamseven from "./components/Teamseven/Teamseven";
-import BackToTopButton from "./components/BackToTop";
 
 const App = () => {
   return (
