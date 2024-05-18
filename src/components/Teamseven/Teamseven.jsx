@@ -1,10 +1,26 @@
 import Section from "../Section";
 import Heading from "../Heading";
-import { team7, check, kakashi, narutopic, sasuke, sakura } from "../../assets";
+import {
+  team7,
+  check,
+  kakashi,
+  narutopic,
+  sasuke,
+  sakura,
+  arrow,
+} from "../../assets";
 import { Gradient } from "../design/Gradient";
 import { teamSeven } from "../../constants";
+import { BackgroundCircles } from "../design/Hero";
 
 const Teamseven = () => {
+  const onClickEvent = () => {
+    const kakashiElement = document.getElementById("kakashi");
+    if (kakashiElement) {
+      kakashiElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <Section id="teamseven">
       <div className="container">
@@ -45,11 +61,19 @@ const Teamseven = () => {
                 ))}
               </ul>
             </div>
+
+            <button
+              onClick={onClickEvent}
+              className="flex items-center h-[3.5rem] px-6 bg-n-8/80 rounded-[1.7rem] text-base absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2 text-n-1"
+            >
+              <img className="w-5 h-5 mr-4" src={arrow} alt="Loading" />
+              Check them out!
+            </button>
           </div>
 
-          <div className="relative z-1 grid gap-5 lg:grid-cols-2">
+          <div className="relative z-1 grid gap-5 lg:grid-cols-2 mb-[1rem]">
             <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
-              <div className="absolute inset-0">
+              <div className="absolute inset-0" id="kakashi">
                 <img
                   src={kakashi}
                   className="h-full w-full object-cover"
@@ -140,6 +164,7 @@ const Teamseven = () => {
             </div>
           </div>
 
+          <BackgroundCircles />
           <Gradient />
         </div>
       </div>

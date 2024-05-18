@@ -16,6 +16,7 @@ import kakashi from "./Teamseven/kakashi.jpg";
 import narutopic from "./Teamseven/naruto.jpg";
 import sasuke from "./Teamseven/sasuke.jpg";
 import sakura from "./Teamseven/sakura.jpg";
+import arrow from "./arrow.png";
 
 export {
   naruto,
@@ -36,4 +37,5 @@ export {
   narutopic,
   sasuke,
   sakura,
+  arrow,
 };
